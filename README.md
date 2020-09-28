@@ -8,6 +8,15 @@ This Calculator program takes user input and performs basic operations of Additi
 ### How It Works
 The program will begin with the Calculator asking the user what operation they would like for it to perform (or if they would like to exit the program).
 A list of options with a number corresponding to each of the seven operations will be provided, with exiting the program as the eighth option.
+The options are as follows:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exponentiation
+7. Floor
+8. Quit
 
 If the user selects a number that corresponds with an operation (ex. 1 for Addition), the user will be informed of which operation they chose. They then will be prompted to enter two whole integer values, positive or negative. The Calculator will then perform that operation and display the final answer.
 
