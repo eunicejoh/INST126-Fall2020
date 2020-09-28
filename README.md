@@ -29,3 +29,6 @@ The Calculator will assume that the user:
 - selects a valid option when asked (#s 1-8 only)
 - inputs valid whole number **integers** (both positive and negative are accepted)
 - will NOT enter the number 0 as their second number if they ask the Calculator to perform division
+
+## Sample Outputs
+https://mail.google.com/mail/u/0?ui=2&ik=e1769efac1&attid=0.1&permmsgid=msg-a:r-221343474852711452&th=174d21a293d323ef&view=att&disp=safe&realattid=f_kflsjv3j0
