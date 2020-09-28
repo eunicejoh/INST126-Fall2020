@@ -18,13 +18,14 @@ The options are as follows:
 7. Floor
 8. Quit
 
-If the user selects a number that corresponds with an operation (ex. 1 for Addition), the user will be informed of which operation they chose. They then will be prompted to enter two whole integer values, positive or negative. The Calculator will then perform that operation and display the final answer.
+If the user selects a number that corresponds with an operation (ex. 1 for Addition), the user will be informed of which operation they chose. They then will be prompted to enter two whole integer values, positive or negative. The Calculator will then perform that specified operation with the two integers and display the final answer.
 
 Afterwards, the Calculator will ask the user to select another operation for the Calculator to perform. This will continue until the user selects option 8 (Quit).
 If the user selects option 8, the Calculator will cease action and the program will end there.
 
 ### Assumptions
 The Calculator will assume that the user:
+- understands what each of the operations do
 - selects a valid option when asked (#s 1-8 only)
-- inputs valid whole number integers (both positive and negative are accepted)
-- will not enter the number 0 as their second number if they ask the Calculator to perform division
+- inputs valid whole number **integers** (both positive and negative are accepted)
+- will NOT enter the number 0 as their second number if they ask the Calculator to perform division
