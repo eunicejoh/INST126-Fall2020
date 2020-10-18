@@ -1,0 +1,77 @@
+print("Welcome to the Calculator!")
+
+# automatically start program; keep running until user wants to quit
+programStart = "Yes"
+while programStart == "Yes":
+    print()
+
+# list options + ask user to pick one
+# assume user will choose a valid option (any # between 1-8)
+# additionally, assume user will only input whole number integers, positive or negative
+    print("Options")
+    print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulus\n6. Exponentiation\n7. Floor\n8. Quit")
+    userAns = int(input("Please choose an option (#): "))
+
+# if user picks addition
+    if (userAns == 1):
+        print("Addition operation chosen.")
+        addNum1 = int(input("Enter your first number: "))
+        addNum2 = int(input("Enter your second number: "))
+        addTotal = addNum1 + addNum2
+        print(str(addNum1) + " + " + str(addNum2) + " = " + str(addTotal))
+
+# if user picks subtraction
+    elif (userAns == 2):
+        print("Subtraction operation chosen.")
+        subNum1 = int(input("Enter your first number: "))
+        subNum2 = int(input("Enter your second number: "))
+        subTotal = subNum1 - subNum2
+        print(str(subNum1) + " - " + str(subNum2) + " = " + str(subTotal))
+
+# if user picks multiplication
+    elif (userAns == 3):
+        print("Multiplication operation chosen.")
+        multNum1 = int(input("Enter your first number: "))
+        multNum2 = int(input("Enter your second number: "))
+        multTotal = multNum1 * multNum2
+        print(str(multNum1) + " * " + str(multNum2) + " = " + str(multTotal))
+        
+# if user picks division
+# assume user does NOT pick 0 for the second number
+    elif (userAns == 4):
+        print("Division operation chosen.")
+        divNum1 = int(input("Enter your first number: "))
+        divNum2 = int(input("Enter your second number: "))
+        divTotal = divNum1 / divNum2
+        print(str(divNum1) + " / " + str(divNum2) + " = " + str(divTotal))
+
+# if user picks modulus
+    elif (userAns == 5): 
+        print("Modulus operation chosen.")
+        modNum1 = int(input("Enter your first number: "))
+        modNum2 = int(input("Enter your second number: "))
+        modTotal = modNum1 % modNum2
+        print(str(modNum1) + " % " + str(modNum2) + " = " + str(modTotal))
+        
+# if user picks exponentiation
+    elif (userAns == 6): 
+        print("Exponentiation operation chosen.")
+        expNum1 = int(input("Enter your first number: "))
+        expNum2 = int(input("Enter your second number: "))
+        expTotal = expNum1 ** expNum2
+        print(str(expNum1) + " ** " + str(expNum2) + " = " + str(expTotal))
+
+# if user picks floor
+    elif (userAns == 7): 
+        print("Floor operation chosen.")
+        floorNum1 = int(input("Enter your first number: "))
+        floorNum2 = int(input("Enter your second number: "))
+        floorTotal = floorNum1 // floorNum2
+        print(str(floorNum1) + " // " + str(floorNum2) + " = " + str(floorTotal))
+        
+# if user picks "Quit" to exit Calculator; stops program (the end)
+    else:
+        programStart = "No"
+print()
+print("User has selected 'Quit.' Stopping the program....")
+print("Thanks for using the Calculator!")
