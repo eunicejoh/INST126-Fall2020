@@ -1,6 +1,7 @@
 # INST126-Fall2020
 
-## Project 1: Calculator
+## Project 1: 
+Calculator
 
 ### Overview
 This Calculator program takes user input and performs basic operations of Addition, Subtraction, Multiplication, Division, Exponentiation, Floor, and Modulus.
